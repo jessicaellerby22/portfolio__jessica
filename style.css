@@ -42,7 +42,7 @@ About
 }
 
 #about img{
-    border-radius: 50%;
+    border-radius: 5%;
     width:120px;
     margin-bottom: 10px;
 }
@@ -85,18 +85,45 @@ project
 #project{
     font-size: 18px;
     color: #af49db;
-    margin:60px auto;
+    margin: 60px;px auto;
     width: 80%;
 }
 
 #project h3{
-    text-align: center ;
+    text-align: right;
 }
 
 #project .card img{
-    width: 100%;
+    width: 75%;
 }
 
 #project .card-title{
+    font-weight: bold;
+}
+
+
+/********
+
+Netflix Project
+
+
+********/
+
+#NetflixProject{
+    font-size: 18px;
+    color: #af49db;
+    margin: 25px auto;
+    width: 80%;
+}
+
+#NetflixProject h3{
+    text-align: left;
+}
+
+#NetflixProject .card img{
+width:75% ;
+}
+
+#NetflixProject .card-title{
     font-weight: bold;
 }
